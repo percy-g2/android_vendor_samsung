@@ -157,6 +157,6 @@ PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/proprietary/system/etc/pvplayer.cfg:system/etc/pvplayer.cfg \
      $(LOCAL_PATH)/proprietary/system/etc/rndis.sh:system/etc/rndis.sh \
      $(LOCAL_PATH)/proprietary/system/etc/setusbmode.txt:system/etc/setusbmode.txt \
-     $(LOCAL_PATH)/proprietary/system/etc/usb_thether.sh:system/etc/usb_thether.sh \
+     $(LOCAL_PATH)/proprietary/system/etc/usb_tether.sh:system/etc/usb_tether.sh \
      $(LOCAL_PATH)/proprietary/system/etc/spn-conf.xml:system/etc/spn-conf.xml \
      $(LOCAL_PATH)/proprietary/system/etc/usbconfig.sh:system/etc/usbconfig.sh
