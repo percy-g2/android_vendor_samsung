@@ -1,0 +1,4 @@
+echo 2 > /proc/brcm_switch
+setprop bcmtest.local running
+bcmtest -u &			
+echo b > /proc/brcm_logcfg

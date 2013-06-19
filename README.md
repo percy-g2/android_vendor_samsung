@@ -1,4 +1,4 @@
 android_vendor_samsung
 ======================
 
-BCM common vendor files for cm9
+Galaxy Y AKA totoro vendor files for cm9
