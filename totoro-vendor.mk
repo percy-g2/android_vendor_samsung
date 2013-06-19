@@ -14,4 +14,4 @@
 
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/totoro/overlay
 
-$(call inherit-product, vendor/samsung/janice/totoro-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/totoro/totoro-vendor-blobs.mk)
