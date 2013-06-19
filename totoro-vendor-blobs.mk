@@ -17,7 +17,7 @@ LOCAL_PATH := vendor/samsung/totoro
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/proprietary/system/lib/libril.so:obj/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/system/lib/librcm_ril.so:obj/lib/librcm_ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libbrcm_ril.so:obj/lib/libbrcm_ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/libreference-ril.so:obj/lib/libreference-ril.so \
     $(LOCAL_PATH)/proprietary/system/lib/liburilclient.so:obj/lib/liburilclient.so
 
@@ -27,7 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/totoro/proprietary/system/bin/rild:system/bin/rild \
     vendor/samsung/totoro/proprietary/system/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     vendor/samsung/totoro/proprietary/system/lib/liburilclient.so:system/lib/liburilclient.so \
-    vendor/samsung/totoro/proprietary/system/lib/libbrcm_ril.so:system/lib/libreference-ril.so
+    vendor/samsung/totoro/proprietary/system/lib/libreference-ril.so:system/lib/libreference-ril.so
 
 # EGL
 PRODUCT_COPY_FILES += \
