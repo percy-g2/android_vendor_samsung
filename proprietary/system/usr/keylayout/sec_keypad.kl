@@ -31,20 +31,20 @@ key 47    V
 key 48    B
 key 49    N
 key 50    M
-key 352   DEL      WAKE
+key 352   DEL      WAKE_DROPPED 
 key 14    ENTER       
 key 51    COMMA
 key 42    SHIFT_LEFT
 key 214   APOSTROPHE
-key 28    DPAD_CENTER       WAKE
-key 106   DPAD_RIGHT         WAKE
-key 105   DPAD_LEFT       WAKE
-key 103   DPAD_UP          WAKE
-key 108   DPAD_DOWN         WAKE
+key 28    DPAD_CENTER       WAKE_DROPPED
+key 106   DPAD_RIGHT         WAKE_DROPPED
+key 105   DPAD_LEFT       WAKE_DROPPED
+key 103   DPAD_UP          WAKE_DROPPED
+key 108   DPAD_DOWN         WAKE_DROPPED
 key 56    ALT_LEFT
 key 223   SYM				
 key 155   ENVELOPE
-key 217   SEARCH            WAKE
+key 217   SEARCH            WAKE_DROPPED
 key 57    SPACE
 key 52    PERIOD
 key 231	CALL

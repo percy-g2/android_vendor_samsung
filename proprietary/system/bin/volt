@@ -1,0 +1,13 @@
+#!/system/bin/sh
+
+
+busybox echo "bacem-tweak voltage information"
+busybox echo "status of voltage:"
+busybox grep -i mV ./proc/sys/bacem/volt/cpu
+busybox echo "0mv is not in undervolt mode"
+busybox echo "voltage :"
+busybox grep -i 0 ./sys/class/regulator/regulator.5/microvolts
+busybox echo "default voltage 832mhz = 1300000"
+busybox echo "default voltage 312mhz = 1240000"
+busybox echo "bacem-tweak from irfanbagus@xda" 
+busybox echo "script by: savie-xda"
