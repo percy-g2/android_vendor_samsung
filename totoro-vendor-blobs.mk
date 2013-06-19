@@ -18,6 +18,10 @@ LOCAL_PATH := $(LOCAL_PATH)
 PRODUCT_COPY_FILES += \
 vendor/samsung/totoro/proprietary/system/etc/asound.conf:system/etc/asound.conf \
 vendor/samsung/totoro/proprietary/system/lib/libasound.so:system/lib/libasound.so \
+vendor/samsung/totoro/proprietary/system/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
+vendor/samsung/totoro/proprietary/system/lib/lib_Samsung_Acoustic_Module_Llite.so:system/lib/lib_Samsung_Acoustic_Module_Llite.so \
+
+
 
 # Mediaplayer
 PRODUCT_COPY_FILES += \
