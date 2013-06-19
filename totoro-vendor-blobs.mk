@@ -57,7 +57,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/RC_248_WPA.bin:system/etc/wifi/RC_248_WPA.bin \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    $(LOCAL_PATH)/proprietary/system/etc/wifi/ipref:system/etc/wifi/ipref
+    $(LOCAL_PATH)/proprietary/system/etc/wifi/iperf:system/etc/wifi/iperf
     
 # Camera
 PRODUCT_COPY_FILES += \
