@@ -12,7 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := $(LOCAL_PATH)
+LOCAL_PATH := vendor/samsung/totoro
+
+# Prebuilt libraries that are needed to build open-source libraries
+PRODUCT_COPY_FILES := \
+    $(LOCAL_PATH)/proprietary/system/lib/libril.so:obj/lib/libril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/librcm_ril.so:obj/lib/librcm_ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libreference-ril.so:obj/lib/libreference-ril.so \
+    $(LOCAL_PATH)/proprietary/system/lib/liburilclient.so:obj/lib/liburilclient.so \
 
 # Audio
 PRODUCT_COPY_FILES += \
