@@ -23,11 +23,11 @@ PRODUCT_COPY_FILES := \
 
 # RIL
 PRODUCT_COPY_FILES += \
-vendor/samsung/totoro/proprietary/system/lib/libril.so:system/lib/libril.so \
-vendor/samsung/totoro/proprietary/system/bin/rild:system/bin/rild \
-vendor/samsung/totoro/proprietary/system/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
-vendor/samsung/totoro/proprietary/system/lib/liburilclient.so:system/lib/liburilclient.so \
-vendor/samsung/totoro/proprietary/system/lib/libbrcm_ril.so:system/lib/libreference-ril.so
+    vendor/samsung/totoro/proprietary/system/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/totoro/proprietary/system/bin/rild:system/bin/rild \
+    vendor/samsung/totoro/proprietary/system/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
+    vendor/samsung/totoro/proprietary/system/lib/liburilclient.so:system/lib/liburilclient.so \
+    vendor/samsung/totoro/proprietary/system/lib/libbrcm_ril.so:system/lib/libreference-ril.so
 
 # EGL
 PRODUCT_COPY_FILES += \
